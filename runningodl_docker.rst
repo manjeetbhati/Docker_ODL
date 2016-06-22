@@ -51,15 +51,21 @@ copy the container id of container running image odl
 Start ODL
 
      once you're in container run
-     cd && cd odl/distribution-x-x 
+
+     cd && cd odl/distribution-x-x
+
      ./bin/start
+
      ./client -u karaf
+
      feature:install odl-l2switch-switch
+
      feature: install odl-dlux-all
 
 Then you can check if its really working
 
-     curl http://<dockercontainer ip>:8181/index.html \
+     curl http://<dockercontainer ip>:8181/index.html 
+     
      curl http://<hostip>:8181/index.html 
 
 You can also commit that container which will save a new image will all the odl stuff
