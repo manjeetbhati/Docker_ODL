@@ -30,7 +30,9 @@ Create a dir:
         mkdir odl
         cd odl
 
-copy the Docker file from 
+copy the Docker file from
+
+       https://github.com/manjeetbhatia/Docker_ODL/blob/master/Dockerfile 
 
 
 Build a docker container:
