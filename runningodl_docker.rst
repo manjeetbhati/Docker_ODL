@@ -59,7 +59,7 @@ Start ODL
 
 Then you can check if its really working
 
-     curl http://<dockercontainer ip>:8181/index.html
+     curl http://<dockercontainer ip>:8181/index.html \
      curl http://<hostip>:8181/index.html 
 
 You can also commit that container which will save a new image will all the odl stuff
