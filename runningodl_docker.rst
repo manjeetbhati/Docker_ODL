@@ -40,7 +40,7 @@ Build a docker container:
 
 It will take some time to build that container and once you have that built just run it.
 
-       sudo docker run -itd -p <your host ip>:8181 odl /bin/bash
+       sudo docker run -itd -p <your host ip>:8181 test_odl /bin/bash
 
        sudo docker ps -a
 
