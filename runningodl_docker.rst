@@ -27,8 +27,7 @@ Docker container can be build from Dockerfile
 
 Create a dir:
 
-        mkdir odl
-        cd odl
+        mkdir odl && cd odl
 
 copy the Docker file from
 
